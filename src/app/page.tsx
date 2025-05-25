@@ -192,101 +192,108 @@ export default function HomePage() {
 
   return (
     <main className="container">
-      <section className="hero bg-gradient-to-r from-[#ffe5d0] via-[#ffd6a5] to-[#ffb385] py-10 my-6 rounded-3xl shadow-xl relative overflow-hidden">
-        <div className="container grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-          <div className="hero-content relative z-10 text-center md:text-left text-gray-900">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 whitespace-nowrap">Level Up Learning with AI</h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto md:mx-0 opacity-90">
-              Make teaching easier and more effective with simple AI tools. Personalize lessons to fit each student's needs, save time on routine tasks, and keep your classroom more engaged- no tech skills needed
+      <section className="bg-[#f7f7fa] py-16 rounded-3xl shadow-md my-10">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-6">
+          <div>
+            <h1 className="text-5xl font-extrabold mb-4 text-[#222]">
+              Level Up <span className="text-[#d2691e]">Learning</span> with AI
+            </h1>
+            <p className="text-lg text-[#333] mb-8">
+              Make teaching easier and more effective with simple AI tools. Personalize lessons to fit each student's needs, save time on routine tasks, and keep your classroom more engaged—no tech skills needed.
             </p>
-            <Link href="https://calendly.com/founder-aignit/aignit-personalized-education-demo" target="_blank" rel="noopener noreferrer" className="text-lg px-8 py-4 font-bold rounded-lg shadow-lg bg-[#d2691e] text-white hover:bg-[#b35a1a] transition-colors">
+            <a
+              href="https://calendly.com/founder-aignit/aignit-personalized-education-demo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#d2691e] text-white font-bold px-8 py-3 rounded-lg shadow hover:bg-[#b35a1a] transition"
+            >
               See It In Action
-            </Link>
+            </a>
           </div>
-          <div className="hidden md:flex justify-center items-center relative h-full">
+          <div className="flex justify-center">
             <img
               src="/personalized-education.svg"
               alt="Personalized Education Illustration"
-              className="max-h-72 w-auto rounded-xl shadow-lg relative z-10"
+              className="max-h-72 w-auto rounded-2xl shadow-md"
             />
           </div>
         </div>
       </section>
 
-      {/* Advantages Section - moved up */}
-      <section id="advantages" className="advantages">
+      {/* Advantages Section */}
+      <section id="advantages" className="bg-[#fff7f0] py-16 rounded-3xl shadow-md my-10 border-b border-[#ffe5d0]">
         <div className="container">
-          <h2 className="section-title">Transform Your Educational Impact</h2>
-          <p className="section-subtitle">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#222] text-center mb-4">Transform Your Educational Impact</h2>
+          <p className="text-lg text-[#333] text-center mb-10">
             Discover how Aignit empowers educators to achieve unprecedented results in student engagement and learning outcomes
           </p>
-          <div className="advantages-grid">
-            <div className="advantage-card">
-              <div className="advantage-number">1</div>
-              <div className="advantage-icon">🎯</div>
-              <h3>Personalized Learning Experience</h3>
-              <p>Deliver tailored content and adaptive learning paths that match each student's unique learning style, pace, and preferences.</p>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="bg-white rounded-2xl shadow p-8 flex flex-col items-center">
+              <div className="text-3xl font-bold text-[#d2691e] mb-2">1</div>
+              <div className="text-4xl mb-2">🎯</div>
+              <h3 className="font-semibold text-lg text-[#222] mb-2 text-center">Personalized Learning Experience</h3>
+              <p className="text-[#333] text-center">Deliver tailored content and adaptive learning paths that match each student's unique learning style, pace, and preferences.</p>
             </div>
-            <div className="advantage-card">
-              <div className="advantage-number">2</div>
-              <div className="advantage-icon">📈</div>
-              <h3>Higher Retention</h3>
-              <p>Due to daily and personalised engagement, students are more likely to retain knowledge and stay motivated throughout the course.</p>
+            <div className="bg-white rounded-2xl shadow p-8 flex flex-col items-center">
+              <div className="text-3xl font-bold text-[#d2691e] mb-2">2</div>
+              <div className="text-4xl mb-2">📈</div>
+              <h3 className="font-semibold text-lg text-[#222] mb-2 text-center">Higher Retention</h3>
+              <p className="text-[#333] text-center">Due to daily and personalised engagement, students are more likely to retain knowledge and stay motivated throughout the course.</p>
             </div>
-            <div className="advantage-card">
-              <div className="advantage-number">3</div>
-              <div className="advantage-icon">🏆</div>
-              <h3>Better Course Completion</h3>
-              <p>Better course completion rates and improved learning outcomes through continuous support and adaptive feedback.</p>
+            <div className="bg-white rounded-2xl shadow p-8 flex flex-col items-center">
+              <div className="text-3xl font-bold text-[#d2691e] mb-2">3</div>
+              <div className="text-4xl mb-2">🏆</div>
+              <h3 className="font-semibold text-lg text-[#222] mb-2 text-center">Better Course Completion</h3>
+              <p className="text-[#333] text-center">Better course completion rates and improved learning outcomes through continuous support and adaptive feedback.</p>
             </div>
-            <div className="advantage-card">
-              <div className="advantage-number">4</div>
-              <div className="advantage-icon">💸</div>
-              <h3>Lower Cost</h3>
-              <p>Reduce the cost of evaluators and mentors by leveraging AI-driven assessment and feedback tools.</p>
+            <div className="bg-white rounded-2xl shadow p-8 flex flex-col items-center">
+              <div className="text-3xl font-bold text-[#d2691e] mb-2">4</div>
+              <div className="text-4xl mb-2">💸</div>
+              <h3 className="font-semibold text-lg text-[#222] mb-2 text-center">Lower Cost</h3>
+              <p className="text-[#333] text-center">Reduce the cost of evaluators and mentors by leveraging AI-driven assessment and feedback tools.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="stats bg-gradient-to-r from-[#667eea] to-[#764ba2] py-8 my-8 rounded-2xl text-white text-center">
+      {/* Stats Section */}
+      <section className="bg-[#fff] py-10 rounded-2xl shadow mb-10 border-b border-[#ffd6a5]">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="stat-item">
-              <div className="text-3xl font-extrabold mb-1"><span data-count="5000">5,000</span>+</div>
-              <div className="text-sm opacity-90">Questions Evaluated</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div>
+              <div className="text-4xl font-extrabold text-[#d2691e] mb-1"><span data-count="5000">5,000</span>+</div>
+              <div className="text-base text-[#222]">Questions Evaluated</div>
             </div>
-            <div className="stat-item">
-              <div className="text-3xl font-extrabold mb-1"><span data-count="1000">1,000</span>+</div>
-              <div className="text-sm opacity-90">Students Served</div>
+            <div>
+              <div className="text-4xl font-extrabold text-[#d2691e] mb-1"><span data-count="1000">1,000</span>+</div>
+              <div className="text-base text-[#222]">Students Served</div>
             </div>
-            <div className="stat-item">
-              <div className="text-3xl font-extrabold mb-1"><span data-count="10">10</span>+</div>
-              <div className="text-sm opacity-90">Trusted Educators</div>
+            <div>
+              <div className="text-4xl font-extrabold text-[#d2691e] mb-1"><span data-count="10">10</span>+</div>
+              <div className="text-base text-[#222]">Trusted Educators</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Products Section */}
-      <section id="products" className="products">
-        <h2 className="section-title">Our AI-Powered Solutions</h2>
-        <p className="section-subtitle">Comprehensive tools designed to enhance every aspect of the educational experience</p>
-        
-        <div className="product-grid">
+      <section id="products" className="bg-[#ffd6a5] py-16 rounded-3xl shadow-md my-10 border-b border-[#fff]">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#222] text-center mb-4">Our AI-Powered Solutions</h2>
+        <p className="text-lg text-[#333] text-center mb-10">Comprehensive tools designed to enhance every aspect of the educational experience</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto">
           {products.map((product, index) => (
-            <div key={product.title} className="product-card" style={{ animationDelay: `${index * 0.2}s` }}>
-              <div className="product-icon">{product.icon}</div>
-              <h3 className="text-2xl font-extrabold mb-2 text-[#d2691e]">{product.title}</h3>
-              <p>{product.description}</p>
-              <ul className="features-list">
+            <div key={product.title} className="bg-white rounded-2xl shadow p-8 flex flex-col h-full" style={{ animationDelay: `${index * 0.2}s` }}>
+              <div className="text-4xl mb-2">{product.icon}</div>
+              <h3 className="text-xl font-bold mb-2 text-[#d2691e]">{product.title}</h3>
+              <p className="text-[#333] mb-4">{product.description}</p>
+              <ul className="list-disc pl-5 mb-4 text-[#333]">
                 {product.features.map((feature) => (
                   <li key={feature}>{feature}</li>
                 ))}
               </ul>
-              <div className="product-demo">
-                <div className="demo-label">{product.demo.label}</div>
-                <div className="text-sm italic whitespace-pre-line">{product.demo.content}</div>
+              <div className="bg-[#f7f7fa] rounded-lg p-4 mt-auto">
+                <div className="font-semibold text-[#d2691e] mb-1">{product.demo.label}</div>
+                <div className="text-sm italic whitespace-pre-line text-[#333]">{product.demo.content}</div>
               </div>
             </div>
           ))}
@@ -294,25 +301,25 @@ export default function HomePage() {
       </section>
 
       {/* Elevate Every Lesson with AI Section */}
-      <section className="bg-gradient-to-r from-[#fff7ed] via-[#ffe5d0] to-[#ffe5ec] py-16 my-8 rounded-3xl shadow-xl">
+      <section className="bg-[#fff] py-16 rounded-3xl shadow-md my-10 border-b border-[#ffd6a5]">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-8 text-[#d2691e] drop-shadow-lg">Elevate Every Lesson with AI</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-8 text-[#d2691e] drop-shadow-lg">Elevate Every Lesson with AI</h2>
             <div className="grid grid-cols-1 gap-6">
-              <div className="bg-gradient-to-r from-[#ffd6a5] to-[#fdffb6] rounded-2xl p-8 shadow border border-orange-200 flex flex-col items-start">
+              <div className="bg-[#f7f7fa] rounded-2xl p-8 shadow flex flex-col items-start">
                 <div className="text-3xl mb-4 text-[#d2691e]">🔌</div>
-                <h3 className="text-xl font-semibold mb-2 text-[#d2691e]">Plug and Play</h3>
-                <p className="text-gray-700">We can integrate these features into your website and your students can access these products under one single roof.</p>
+                <h3 className="text-lg font-semibold mb-2 text-[#d2691e]">Plug and Play</h3>
+                <p className="text-[#333]">We can integrate these features into your website and your students can access these products under one single roof.</p>
               </div>
-              <div className="bg-gradient-to-r from-[#b2f7ef] to-[#f3ffe3] rounded-2xl p-8 shadow border border-green-200 flex flex-col items-start">
+              <div className="bg-[#f7f7fa] rounded-2xl p-8 shadow flex flex-col items-start">
                 <div className="text-3xl mb-4 text-green-600">💳</div>
-                <h3 className="text-xl font-semibold mb-2 text-green-700">Pay as per Use</h3>
-                <p className="text-gray-700">Post integration, pay only as per the usage of the product.</p>
+                <h3 className="text-lg font-semibold mb-2 text-green-700">Pay as per Use</h3>
+                <p className="text-[#333]">Post integration, pay only as per the usage of the product.</p>
               </div>
-              <div className="bg-gradient-to-r from-[#a0c4ff] to-[#bdb2ff] rounded-2xl p-8 shadow border border-blue-200 flex flex-col items-start">
+              <div className="bg-[#f7f7fa] rounded-2xl p-8 shadow flex flex-col items-start">
                 <div className="text-3xl mb-4 text-blue-700">📊</div>
-                <h3 className="text-xl font-semibold mb-2 text-blue-800">Track Your Students' Activities</h3>
-                <p className="text-gray-700">Understand the doubts students are asking, where they struggle, and update your courses accordingly—all in one place.</p>
+                <h3 className="text-lg font-semibold mb-2 text-blue-800">Track Your Students' Activities</h3>
+                <p className="text-[#333]">Understand the doubts students are asking, where they struggle, and update your courses accordingly—all in one place.</p>
               </div>
             </div>
           </div>
@@ -320,24 +327,24 @@ export default function HomePage() {
             <img
               src="/ai-lesson-illustration.svg"
               alt="AI-Powered Lesson Analytics"
-              className="rounded-xl shadow-lg max-w-full h-auto border-4 border-[#d2691e]"
+              className="rounded-xl shadow-lg max-w-full h-auto"
             />
             <span className="mt-4 text-gray-500 text-sm">AI-Powered Lesson Analytics</span>
           </div>
         </div>
       </section>
 
-      <section id="demo" className="demo-section">
-        <h2 className="section-title text-center">Sample Evaluation Output</h2>
-        <p className="section-subtitle text-center mb-12">See how our AI evaluates handwritten answers and provides detailed feedback.</p>
-        <div className="demo-grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 items-start">
+      {/* Demo Section */}
+      <section id="demo" className="bg-[#ffe5d0] py-16 rounded-3xl shadow-md my-10">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#222] text-center mb-4">Sample Evaluation Output</h2>
+        <p className="text-lg text-[#333] text-center mb-10">See how our AI evaluates handwritten answers and provides detailed feedback.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 items-start container mx-auto">
           <div className="flex flex-col items-center justify-center w-full">
-            {/* AI Evaluation Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-[#667eea] mb-6 max-w-xl w-full mx-auto">
-              <div className="font-semibold mb-2 text-gray-900 text-sm">
+              <div className="font-semibold mb-2 text-[#222] text-sm">
                 Q: Discuss the evolving dynamics of digital parenting in urban India. How does it influence parent-child emotional bonding and developmental outcomes. What interventions are needed to promote mindful engagement in the digital age? <span className='text-xs'>(15 M)</span>
               </div>
-              <div className="bg-gray-50 rounded-lg p-4 italic mb-4 border border-dashed border-gray-200 text-sm">
+              <div className="bg-[#f7f7fa] rounded-lg p-4 italic mb-4 border border-dashed border-gray-200 text-sm text-[#333]">
                 "Digital parenting in urban India is evolving with increased use of mobile devices among children. Parents face challenges like mobile addiction and reduced communication..."
               </div>
               <div className="bg-green-50 rounded-lg p-4 border-l-4 border-green-500 mb-2 text-sm">
