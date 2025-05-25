@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Aignite - Your Digital Partner',
+  title: 'Aignit - Your Digital Partner',
   description: 'We help businesses transform their digital presence with modern web solutions.',
 }
 

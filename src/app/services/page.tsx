@@ -10,27 +10,27 @@ import {
 } from '@heroicons/react/24/outline';
 
 export const metadata: Metadata = {
-  title: 'Our Services - Aignite Digital Solutions',
-  description: 'Explore Aignite\'s comprehensive digital services including web development, digital marketing, SEO, mobile apps, UI/UX design, and cloud solutions. Transform your digital presence today.',
+  title: 'Our Services - Aignit Digital Solutions',
+  description: "Explore Aignit's comprehensive digital services including web development, digital marketing, SEO, mobile apps, UI/UX design, and cloud solutions. Transform your digital presence today.",
   keywords: 'web development, digital marketing, SEO, mobile development, UI/UX design, cloud solutions, digital services',
   openGraph: {
-    title: 'Our Services - Aignite Digital Solutions',
-    description: 'Explore Aignite\'s comprehensive digital services including web development, digital marketing, SEO, mobile apps, UI/UX design, and cloud solutions.',
+    title: 'Our Services - Aignit Digital Solutions',
+    description: "Explore Aignit's comprehensive digital services including web development, digital marketing, SEO, mobile apps, UI/UX design, and cloud solutions.",
     type: 'website',
-    url: 'https://aignite.com/services',
+    url: 'https://aignit.com/services',
     images: [
       {
         url: '/og-services.jpg',
         width: 1200,
         height: 630,
-        alt: 'Aignite Services',
+        alt: 'Aignit Services',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Our Services - Aignite Digital Solutions',
-    description: 'Explore Aignite\'s comprehensive digital services including web development, digital marketing, SEO, mobile apps, UI/UX design, and cloud solutions.',
+    title: 'Our Services - Aignit Digital Solutions',
+    description: "Explore Aignit's comprehensive digital services including web development, digital marketing, SEO, mobile apps, UI/UX design, and cloud solutions.",
     images: ['/og-services.jpg'],
   },
 };

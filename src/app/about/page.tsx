@@ -3,27 +3,27 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Aignite - Your Digital Transformation Partner',
-  description: 'Learn about Aignite, a team of passionate digital experts dedicated to helping businesses thrive in the digital age. Discover our mission, team, and success stories.',
+  title: 'About Aignit - Your Digital Transformation Partner',
+  description: 'Learn about Aignit, a team of passionate digital experts dedicated to helping businesses thrive in the digital age. Discover our mission, team, and success stories.',
   keywords: 'digital agency, web development, digital marketing, team, mission, about us',
   openGraph: {
-    title: 'About Aignite - Your Digital Transformation Partner',
-    description: 'Learn about Aignite, a team of passionate digital experts dedicated to helping businesses thrive in the digital age.',
+    title: 'About Aignit - Your Digital Transformation Partner',
+    description: 'Learn about Aignit, a team of passionate digital experts dedicated to helping businesses thrive in the digital age.',
     type: 'website',
-    url: 'https://aignite.com/about',
+    url: 'https://aignit.com/about',
     images: [
       {
         url: '/og-about.jpg',
         width: 1200,
         height: 630,
-        alt: 'Aignite Team',
+        alt: 'Aignit Team',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Aignite - Your Digital Transformation Partner',
-    description: 'Learn about Aignite, a team of passionate digital experts dedicated to helping businesses thrive in the digital age.',
+    title: 'About Aignit - Your Digital Transformation Partner',
+    description: 'Learn about Aignit, a team of passionate digital experts dedicated to helping businesses thrive in the digital age.',
     images: ['/og-about.jpg'],
   },
 };
@@ -64,7 +64,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              About Aignite
+              About Aignit
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               We're a team of passionate digital experts dedicated to helping businesses thrive in the digital age. Our mission is to transform ideas into impactful digital solutions.
@@ -97,7 +97,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Mission</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            At Aignite, we believe in the power of digital transformation. Our mission is to empower businesses with innovative digital solutions that drive growth and create lasting impact. We combine technical expertise with creative thinking to deliver exceptional results for our clients.
+            At Aignit, we believe in the power of digital transformation. Our mission is to empower businesses with innovative digital solutions that drive growth and create lasting impact. We combine technical expertise with creative thinking to deliver exceptional results for our clients.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <Link href="/contact" className="btn-primary">
